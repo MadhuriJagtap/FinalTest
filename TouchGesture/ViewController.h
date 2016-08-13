@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lbl;
+
+
+
+@property (weak, nonatomic) IBOutlet UIButton *btn;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgview;
+
+
+@property(nonatomic,retain)UISwipeGestureRecognizer *s1,*s2,*s3,*s4;
+
+
 
 @end
 
